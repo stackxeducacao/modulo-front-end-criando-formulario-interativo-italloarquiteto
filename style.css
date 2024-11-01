@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.painel {
+    /*position=ocupa apenas o lemento dele mesmo*/
+    position: absolute;
+
+   /*centralizar o elemento*/
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+
+    /*cor do fundo; ditância elemento e borda; curva nas bordas*/
+    background-color: rgb(230, 215, 215);
+    padding: 20px;
+    border-radius: 20px;
+
+    /*alinhamento texto e fonte*/
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+}
+
+
+#submit{ 
+    /*cor fundo; margem interna; quinas; posição altura; largura*/
+    background-color: rgb(216, 194, 216);
+    padding: 20px;
+    border-radius: 10px;
+    margin-top: 20px;
+    width:300px;
+}
